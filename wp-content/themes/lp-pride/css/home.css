@@ -1,0 +1,574 @@
+/*********************************************
+** Home 
+*********************************************/
+
+#paginaInicial {
+	float: left;
+	width: 100%;
+}
+
+/* Banner Principal */
+
+#bannerPrincipal {
+	float: left;
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	position: relative;
+}
+
+#bannerPrincipal .boxTransparente {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#bannerPrincipal .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	position: relative;
+}
+
+#bannerPrincipal figure#logo {
+	display: inline-block;
+}
+
+#bannerPrincipal figure#logo img {
+	width: 600px;
+	margin-bottom: 100px;
+}
+
+#bannerPrincipal .boxTexto {
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+
+#bannerPrincipal .boxTexto .text p {
+	color: #fff;
+	line-height: 30px;
+	margin: 0;
+}
+
+#bannerPrincipal .boxTexto img {
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+/* Serviços */
+
+#nossosServicos {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+
+#nossosServicos .boxServico {
+	float: left;
+	width: 100%;
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+#nossosServicos .boxServico + .boxServico {
+	margin-top: 20px;
+}
+
+#nossosServicos .boxServico .fleft {
+	float: left;
+}
+
+#nossosServicos .boxServico .fright {
+	float: right;
+}
+
+#nossosServicos .boxServico .texto {
+	padding: 50px;
+}
+
+#nossosServicos .boxServico .texto h2 {
+	color: #E2B65B;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+#nossosServicos .boxServico .texto .textoInterno {
+	float: left;
+	width: 100%;
+}
+
+#nossosServicos .boxServico .texto .textoInterno p {
+	color: #3B3A3A;
+    font-size: 14px;
+    margin: 0;
+}
+
+#nossosServicos .boxServico .imagem {
+	padding: 0;
+}
+
+/* Sobre Nós */
+
+.sobreNos {
+	float: left;
+	width: 100%;
+	background-position: right;
+    background-size: 50% 100%;
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+}
+
+.sobreNos .texto {
+	padding: 80px 30px 80px 15px;
+}
+
+.sobreNos .texto h2 {
+	color: #1B2E58;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+.sobreNos .imagemOculta {
+	display: none;
+}
+
+/* Números */
+
+.numeros {
+	float: left;
+	width: 100%;
+	background-position: left;
+    background-size: 50% 100%;
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+	display: flex;
+    align-items: center;
+}
+
+.numeros .imgPrincipal {
+	padding: 0;
+}
+
+.numeros .imgPrincipal img {
+	width: 100%;
+}
+
+.numeros .texto {
+	padding: 30px 80px;
+	display: flex;
+    align-items: center;
+}
+
+.numeros .texto ul {
+	padding: 0;
+	margin: 0;
+}
+
+.numeros .texto ul li {
+	list-style: none;
+}
+
+.numeros .texto ul li + li {
+	margin-top: 25px;
+}
+
+.numeros .texto ul li p {
+	color: #1B2E58;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    line-height: 44px;
+    text-transform: uppercase;
+	font-size: 40px;
+}
+
+.numeros .texto ul li span {
+	color: #1B2E58;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Perfil Corporativo */
+
+#perfilCorporativo {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 70px 0 20px 0;
+}
+
+#perfilCorporativo h2 {
+	color: #1B2E58;
+    margin: 0 0 40px 0;
+    font-weight: lighter;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+#perfilCorporativo ul {
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+
+#perfilCorporativo ul li {
+	list-style: none;
+	padding: 0 25px;
+	margin-bottom: 50px;
+}
+
+#perfilCorporativo ul li .boxInterno {
+	background: #F8F8F8;
+	padding: 50px;
+	transition: all 0.2s linear;
+}
+
+#perfilCorporativo ul li .boxInterno:hover {
+	box-shadow: 0px 3px 6px #00000029;
+	background: #fff;
+}
+
+#perfilCorporativo ul li .boxInterno span {
+	color: #D3D3D3;
+    float: left;
+    width: 100%;
+    border-bottom: solid 1px #707070;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 10%;
+    font-weight: 900;
+}
+
+#perfilCorporativo ul li .boxInterno:hover span {
+	color: #E8B456;
+}
+
+#perfilCorporativo ul li .boxInterno h3 {
+	color: #1B2E58;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#perfilCorporativo ul li .boxInterno p {
+	font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    min-height: 80px;
+}
+
+/* Projetos */
+
+#projetosSlider {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#projetosSlider h2 {
+	color: #1B2E58;
+    margin: 0 0 40px 0;
+    font-weight: lighter;
+    line-height: 44px;
+    text-transform: uppercase;
+	float: left;
+	width: 100%;
+}
+
+#projetosSlider .slider-for {
+	padding: 0;
+	float: left;
+	padding: 0 100px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#projetosSlider .slider-for .prevButton {
+	position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    left: 0;
+    top: calc(50% - 55px);
+}
+
+#projetosSlider .slider-for .nextButton {
+	position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    right: 0;
+    top: calc(50% - 55px);
+}
+
+#projetosSlider .slider-for h3 {
+	float: left;
+    width: 100%;
+    color: #808080;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+    font-weight: 700;
+}
+
+#projetosSlider .slider-nav {
+	padding: 0;
+	float: left;
+	padding: 0 250px;
+	width: 100%;
+}
+
+#projetosSlider .slider-nav li {
+	padding: 0 5px;
+}
+
+#projetosSlider .slider-nav li.slick-current {
+	opacity: 0.6;
+}
+
+#projetosSlider .slider-nav li img {
+	cursor: pointer;
+}
+
+/* Fale Conosco */
+
+#faleConosco {
+	float: left;
+	width: 100%;
+	background: #1B2E58;
+	margin-top: 70px;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#faleConosco h2 {
+	color: #EDB013;
+    margin: 0 0 40px 0;
+    font-weight: 900;
+    line-height: 44px;
+    float: left;
+    width: 100%;
+}
+
+#faleConosco .formulario {
+	float: left;
+	width: 100%;
+}
+
+#faleConosco .formulario label {
+	float: left;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#faleConosco .formulario .wpcf7-form-control-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+#faleConosco .formulario input[type=text],
+#faleConosco .formulario input[type=email] {
+	float: left;
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 5px 0 15px 0;
+	font-weight: 700;
+}
+
+#faleConosco .formulario .boxSend {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#faleConosco .formulario .boxSend input[type=submit] {
+	color: #fff;
+    background: #EDB013;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 100px;
+}
+
+#faleConosco .formulario .boxSend .ajax-loader {
+	position: absolute;
+    margin: 0;
+    top: 9px;
+    left: calc(50% - 12px);
+}
+
+#faleConosco .formulario .wpcf7-not-valid-tip {
+	position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 11px;
+    top: 0;
+}
+
+#faleConosco .formulario .wpcf7-response-output {
+	float: left;
+    width: 100%;
+    margin: 30px 0 0 0;
+    border-width: 1px;
+    color: #fff;
+    padding: 15px;
+    font-size: 13px;
+}
+
+#faleConosco .texto {
+	color: #fff;
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 1300px) {
+
+	.numeros .texto {
+		flex-direction: column;
+	}
+
+	.numeros .texto .col-sm-6 {
+		width: 100%;
+		float: left;
+	}
+
+	.numeros .texto figure {
+		margin-top: 30px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	/* Banner Principal */
+
+	#bannerPrincipal {
+		height: 500px;
+		padding: 0 30px;
+	}
+
+	#bannerPrincipal figure#logo {
+		margin-bottom: 100px;
+		text-align: center;
+	}
+
+	#bannerPrincipal figure#logo img {
+		max-width: 90%!important;
+	}
+
+	#bannerPrincipal .boxTexto .text p br {
+		display: none;
+	}
+
+	/* Serviços */
+
+	#nossosServicos .boxServico .texto {
+		padding: 25px;
+	}
+
+	#nossosServicos .boxServico .texto h2 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	/* Sobre Nós */
+
+	.sobreNos {
+		background-image: none!important;
+		padding-top: 15px;
+	}
+
+	.sobreNos .texto {
+		padding: 30px 15px;
+	}
+
+	.sobreNos .imagemOculta {
+		display: block;
+		padding: 0;
+	}
+
+	/* Número */
+
+	.numeros {
+		flex-direction: column;
+	}
+
+	.numeros .texto {
+		padding: 30px 15px;
+		flex-direction: column;
+	}
+
+	.numeros .texto figure {
+		margin-top: 30px;
+	}
+
+	/* Perfil Corporativo */
+
+	#perfilCorporativo {
+		padding: 35px 0 20px 0;
+	}
+
+	#perfilCorporativo h2 {
+		font-size: 30px;
+		margin: 0 0 30px 0;
+	}
+
+	#perfilCorporativo ul li {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	#perfilCorporativo ul li .boxInterno {
+		padding: 50px 30px;
+	}
+
+	#perfilCorporativo ul li .boxInterno p {
+		min-height: 0;
+	}
+
+	/* Projetos */
+
+	#projetosSlider .slider-for {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	#projetosSlider .slider-for .prevButton {
+		width: 30px;
+    	top: calc(100% - 60px);
+	}
+
+	#projetosSlider .slider-for .nextButton {
+		width: 30px;
+    	top: calc(100% - 60px);
+	}
+
+	#projetosSlider .slider-for h3 {
+		padding: 0 35px;
+    	line-height: 30px;
+	}
+
+	#projetosSlider .slider-nav {
+		padding: 0;
+	}
+
+}

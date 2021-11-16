@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-bkp.woff?v=4.7.0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+}
+
+/* Spinner */
+
+.fa-spinner:before { 
+    content: "\f110"; 
+}
+
+/* Ícones */
+
+.fa-bars:before { 
+    content: "\f0c9"; 
+}
+
+.fa-whatsapp:before { 
+    content: "\f232"; 
+}
+
+.fa-envelope-o:before { 
+    content: "\f003"; 
+}
+
+.fa-plus:before { 
+    content: "\f067"; 
+}
+
+.fa-phone:before { 
+    content: "\f095"; 
+}
+
+.fa-facebook:before { 
+    content: "\f09a"; 
+}
+
+.fa-instagram:before { 
+    content: "\f16d"; 
+}
+
+.fa-linkedin-square:before { 
+    content: "\f08c"; 
+}
+
+.fa-youtube-play:before { 
+    content: "\f16a"; 
+}
+
+.fa-check:before { 
+    content: "\f00c"; 
+}
+
+.fa-chevron-circle-right:before { 
+    content: "\f138"; 
+}
+
+.fa-user:before { 
+    content: "\f007"; 
+}

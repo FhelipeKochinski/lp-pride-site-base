@@ -1,0 +1,87 @@
+/*********************************************
+** Footer 
+*********************************************/
+
+#footer {
+	float: left;
+	width: 100%;
+	padding: 50px 0 150px 0;
+	text-align: center;
+	background: #1B2E58;
+}
+
+#footer .logoRodape {
+	text-align: center;
+}
+
+#footer .texto p {
+	color: #fff;
+	margin: 0;
+}
+
+#footer .texto p + p {
+	margin-top: 10px;
+}
+
+#footer .selos figure {
+	display: inline-block;
+}
+
+/* Whatsapp Fixo */
+
+#whatsappFixo {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #EDB013;
+	padding: 10px;
+}
+
+#whatsappFixo .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#whatsappFixo span {
+	color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#whatsappFixo img {
+	max-width: 300px!important;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+
+	#footer {
+		padding: 30px 0 100px 0;
+	}
+
+	#footer .texto {
+		float: left;
+		width: 100%;
+		margin: 30px 0;
+	}
+	
+	#whatsappFixo .container {
+		flex-direction: column;
+	}
+
+	#whatsappFixo span {
+		display: none;
+	}
+
+	#whatsappFixo a {
+		text-align: center;
+	}
+
+	#whatsappFixo img {
+		max-width: 100%!important;
+		margin: 0;
+	}
+	
+}
